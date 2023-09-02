@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.navContainer b {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.navContainer a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
+    height: 39px;
+}
+
+.container {
+    height: 94.4vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    /* border: 2px solid white; */
+}
+
+@media (max-width: 414px) {
+    .container {
+        padding-bottom: 780px;
+    }
+}
+
+.first {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 120px;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card h2 {
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+
+
+
+
+/* overlay nav Icon css started */
+.navIcon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 101%;
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media (max-width: 430px) {
+    .links {
+        display: none;
+    }
+
+    .navIcon {
+        display: block;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+}
+/* overlay nav Icon css ended */
