@@ -15,27 +15,27 @@ document.addEventListener("DOMContentLoaded", function () {
   let card6 = document.querySelector(".card6");
 
   card1.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem1.html";
+    let pageUrl = "./cards/Sem1.html";
     window.location.href = pageUrl;
   });
   card2.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem2.html";
+    let pageUrl = "./cards/Sem2.html";
     window.location.href = pageUrl;
   });
   card3.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem3.html";
+    let pageUrl = "./cards/Sem3.html";
     window.location.href = pageUrl;
   });
   card4.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem4.html";
+    let pageUrl = "./cards/Sem4.html";
     window.location.href = pageUrl;
   });
   card5.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem5.html";
+    let pageUrl = "./cards/Sem5.html";
     window.location.href = pageUrl;
   });
   card6.addEventListener('click', () => {
-    let pageUrl = "./HTML/Sem6.html";
+    let pageUrl = "./cards/Sem6.html";
     window.location.href = pageUrl;
   });
 });
