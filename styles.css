@@ -173,14 +173,31 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 70%;
+    grid-gap: 20px;
 }
 
 .second {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-wrap: wrap;
     width: 70%;
+    grid-gap: 20px;
+}
+
+@media (max-width: 590px) {
+    .first {
+        gap: 20px;
+    }
+
+    .second {
+        gap: 20px;
+    }
+
+    .container {
+        gap: 0px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
 }
 
 .card {
@@ -199,7 +216,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.card img{
+.card img {
     filter: drop-shadow(0px 0px 10px black);
 }
 
