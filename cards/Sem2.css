@@ -172,11 +172,16 @@ footer {
     box-shadow: 0px 0px 30px black;
     cursor: pointer;
     flex-wrap: wrap;
+    transition: all 0.2s linear 0s;
 }
 
 .card img {
     width: 100px;
     filter: drop-shadow(0px 0px 10px black);
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .row-flex {
