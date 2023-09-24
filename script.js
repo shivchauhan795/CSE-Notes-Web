@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let card4 = document.querySelector(".card4");
   let card5 = document.querySelector(".card5");
   let card6 = document.querySelector(".card6");
+  let card7 = document.querySelector(".card7");
 
   card1.addEventListener('click', () => {
     let pageUrl = "./cards/Sem1.html";
@@ -36,6 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   card6.addEventListener('click', () => {
     let pageUrl = "./cards/Sem6.html";
+    window.location.href = pageUrl;
+  });
+  card7.addEventListener('click', () => {
+    let pageUrl = "./cards/Sem7.html";
     window.location.href = pageUrl;
   });
 });
